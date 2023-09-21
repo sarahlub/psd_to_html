@@ -31,6 +31,13 @@ nav {
     color: darkred;
 }
 
+
+
+
+/***************************
+Eudes's section starts here
+***************************/
+
 #expertise-section {
     background-color: white;
     color: #403f47;
@@ -44,6 +51,7 @@ nav {
 
 #expertise-section h2, h4 {
     font-variant-caps: all-petite-caps;
+    text-transform: uppercase;
 }
 
 #team-section {
@@ -55,6 +63,24 @@ nav {
     text-align: center;
     padding: 50px;
 }
+
+#team-section h2, h4 {
+    text-transform: uppercase;
+}
+
+.team-container p {
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+
+
+
+
+/*************************
+Eudes's section ends here
+*************************/
+
 
 #contact_client-section {
     color: lightsalmon;
