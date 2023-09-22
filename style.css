@@ -4,35 +4,69 @@
     padding: 0;
 }
 
-nav {
-    color: red;
-}
-
-#hero-section {
-    color: blue;
-}
-
-#our_story-section {
-    color: green;
-}
-
-#watch-section {
-    color: darkred;
-}
-
-#expertise-section {
-    color: fuchsia;
-}
-
-#team-section {
-    color: yellowgreen;
-}
-
 #contact_client-section {
-    color: lightsalmon;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    gap:10%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+#contact_client-section h2 {
+    text-transform: uppercase;
 }
 
-footer {
-    color: blueviolet;
+.clientImages {
+    width: 28%;
+}
+
+.clientImages img{
+    width: 130px;
+    height: auto;
+    margin: 6% 20% 4% 1%;
+}
+
+
+.clientForm input{
+    width: 500px;
+    padding: 2.5%;
+    margin-top: 5%;
+}
+
+.submitButton {
+    max-width: 150px;
+}
+
+textarea {
+    margin-top: 5%;
+}
+
+.footerSections {
+    background-image: url(images/bgk-footer.png);
+    background-size: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    line-height: 1.5;
+    padding-top: 3%;
+}
+
+.tajam {
+    width: 20%;
+}
+
+.tajam h2 {
+    color: #3d91ad;
+}
+
+.address {
+    width: 18%;
+    margin-top: 1.8%;
+}
+
+.mediaIcons {
+    width: 18%;
+    margin-top: 1.8%;
 }
 
