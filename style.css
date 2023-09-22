@@ -38,10 +38,16 @@ nav {
 Eudes's section starts here
 ***************************/
 
+.divider {
+    margin: 30px auto;
+}
+
+
 #expertise-section {
     background-color: white;
     color: #403f47;
     text-align: center;
+    margin: 100px auto;
 }
 
 .expertise-container p {
@@ -50,7 +56,6 @@ Eudes's section starts here
 }
 
 #expertise-section h2, h4 {
-    font-variant-caps: all-petite-caps;
     text-transform: uppercase;
 }
 
