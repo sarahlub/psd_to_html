@@ -5,10 +5,9 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    margin: 30px;
 }
 
 h1, h2 {
@@ -35,36 +34,62 @@ nav {
 
 
 /***************************
-Eudes's section starts here
+Eudes's sections start here
 ***************************/
 
+/* Expertise section */
+
 .divider {
-    margin: 30px auto;
+    margin-top: 0px;
+    margin-bottom: 50px;
 }
 
+.top-block,
+.bottom-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box {
+    margin: 30px
+}
 
 #expertise-section {
     background-color: white;
     color: #403f47;
     text-align: center;
-    margin: 100px auto;
-}
-
-.expertise-container p {
-    color: #5a5859;
-    font-size: 0.9em;
+    margin: 30px auto;
+    width: 80%;
 }
 
 #expertise-section h2, h4 {
     text-transform: uppercase;
+    font-size: 0.8;
 }
+
+/*.expertise-container*/ p {
+    color: #5a5859b2;
+    font-size: 0.9em;
+}
+
+
+@media screen and (max-width: 700px) {
+    .top-block,.bottom-block {
+    display: block;
+    /* align-items: center;
+    justify-content: space-around; */
+}
+}
+
+/* Team section */
 
 #team-section {
     background-image: url(images/bgk-header.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    color: white;
+    color: ghostwhite;
     text-align: center;
     padding: 50px;
 }
@@ -79,11 +104,8 @@ Eudes's section starts here
 }
 
 
-
-
-
 /*************************
-Eudes's section ends here
+Eudes's sections end here
 *************************/
 
 
