@@ -1,23 +1,154 @@
 * {
     margin: 0;
-    box-sizing: border-box;
     padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./images/bgk-header.png);
+}
+.logo-container{
+    display: flex;
+    justify-content:space-arround;
+    gap: 10%;
+    width: 50%;
 }
 
-nav {
-    color: red;
+.nav-right ol li{
+    display: inline-block;
+    text-decoration: none;
+    padding-right: 15px;
+    color: white;
 }
 
-#hero-section {
-    color: blue;
+/* .logo-container img{
+    max-width: 100px;
+    height: auto;
+    margin-left: 300px;
+}
+.text{
+    font-size: 18px;
+    font-weight:normal;
+    margin-right: 500px;
+} */
+/* .nav-right{
+    text-decoration: none;
+    padding: 10px;
+    margin: 0px;
+    color: white;
+} */
+.hero-section{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 900px;
+    margin: auto;
+    padding-top: 20%;
+}
+/* #hero-section h4{
+    margin-bottom: 100px;
+    margin-top: 100px;
+    display: flex;
+    font-size:xx-large;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    margin-left: 400px;
+} */
+/* .first{
+    height: 10vh;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-left: 400px;
+} */
+/* .moh{
+    border: none;
+    padding: 0.4em 1em;
+    border-radius: 0px;
+    background-color: rgb(52, 112, 125);
+    color:  rgb(12, 62, 73);
+    size: 100%;
+    margin-left: 600px;
+    margin-block-end: 600px;
+} */
+button:hover{
+    cursor: pointer;
+}
+.our_story-section {
+    color: black;
+    background-color: white;
+    display: flex;
+    margin-left: 25%;
+}
+.big {
+    display: flex;
+    justify-content: center;
+    width:60%;
 }
 
-#our_story-section {
-    color: green;
+
+/* .big img{
+    margin-left: 200px;
+    padding-top: 30%;
+} */
+/* .story{
+    font-size: 24px;
+    font-weight:bold;
+    margin-left: 600px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+} */
+/* .topb{
+    height: 10vh;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-right: 400px;
+}
+.lastp{
+    height: 5vh;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-right: 400px;
+} */
+/* .imole{
+    border: none;
+    padding: 0.4em 1em;
+    border-radius: 0px;
+    color:  white;
+    background-color: rgb(102, 169, 184);;
+    size: 100%;
+    margin-left: 600px;
+    margin-top: 100px;
+    margin-block-end: 50px;
+} */
+.imole:hover{
+    cursor: pointer;
 }
 
 #watch-section {
-    color: darkred;
+    color: white;
+    background-image: url(./images/bgk-middle.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+.video{
+    padding-top: 3%; 
 }
 
 #expertise-section {
