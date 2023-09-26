@@ -1,28 +1,63 @@
 * {
     margin: 0;
+  
     box-sizing: border-box;
     padding: 0;   
 }
 
 
-
-
-nav {
-    color: red;
+header{
+    background-size: 100% 100%;
+    background-image: url(./images/bgk-header.png);
+    height: 90vh;
 }
 
-#hero-section {
-    color: blue;
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    margin: 0% 15% 0% 15% ;
 }
-
-#our_story-section {
-    color: green;
+.nav-left {
+    margin-top: 2%;
+    color: #25C1CE;
 }
-
-#watch-section {
-    color: darkred;
+.nav-left img{
+    vertical-align: middle;
+    padding-right: 20px;
 }
-
+.nav-left span {
+    font-size: 1.5rem;
+}
+.nav-right ol li{
+    display: inline-block;
+    padding-right: 15px;
+    margin-top: 40px;
+}
+.nav-right li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+} 
+.nav-right li a:hover {
+    color: #25C1CE;
+}
+.hero-section{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    padding-top: 15%;
+    width: 50%;
+}
+.hero-section h1{
+    font-size: 2rem;
+} 
+.heroUnderline {
+    padding-bottom: 1.5%;
+    color: #25C1CE;
+}
 
 
 
@@ -189,11 +224,70 @@ Eudes's sections end here
 *************************/
 
 
-#contact_client-section {
-    color: lightsalmon;
-}
 
-footer {
-    color: blueviolet;
+.first{
+    padding-bottom: 8%;
+    line-height: 1.5;
 }
-
+.button{
+    border: 2px solid #25C1CE;
+    border-radius: 5px;
+    padding: 1.5%;
+} 
+.hero-section a{
+    text-decoration: none;
+    color: #25C1CE;
+    font-weight: bold;
+}
+.hero-section a:hover{
+    color: white;
+    border-color: white;
+    cursor: pointer;
+}
+.our_story-section {
+    background-color: white;
+    gap: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    width: 60%;
+    height: 50vh;
+}
+.our_story-section a {
+    text-decoration: none;
+    color: #25C1CE;
+    font-weight: bold;
+}
+.our_story-section a:hover {
+    color: #37355F;
+    border-color: #37355F;
+    cursor: pointer;
+}
+.our_story-section h2{
+    padding-bottom: 3%;
+} 
+.our_story-section p {
+    padding-bottom: 5%;
+}
+#watch-section {
+    color: white;
+    background-image: url(./images/bgk-middle.png);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+}
+.video{
+    padding-top: 3%; 
+}
+.video a {
+    text-decoration: none;
+    color: white;
+}
+.video a:hover {
+    color: #25C1CE;
+}
