@@ -4,166 +4,119 @@
     box-sizing: border-box;
 }
 header{
-    background-repeat: no-repeat;
-    background-size: contain;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    background-size: 100% 100%;
     background-image: url(./images/bgk-header.png);
+    height: 90vh;
 }
-.logo-container{
+.navbar{
     display: flex;
-    justify-content:space-arround;
-    gap: 10%;
-    width: 50%;
+    justify-content: space-around;
+    margin: 0% 15% 0% 15% ;
 }
-
+.nav-left {
+    margin-top: 2%;
+    color: #25C1CE;
+}
+.nav-left img{
+    vertical-align: middle;
+    padding-right: 20px;
+}
+.nav-left span {
+    font-size: 1.5rem;
+}
 .nav-right ol li{
     display: inline-block;
-    text-decoration: none;
     padding-right: 15px;
-    color: white;
+    margin-top: 40px;
 }
-
-/* .logo-container img{
-    max-width: 100px;
-    height: auto;
-    margin-left: 300px;
-}
-.text{
-    font-size: 18px;
-    font-weight:normal;
-    margin-right: 500px;
-} */
-/* .nav-right{
+.nav-right li a {
     text-decoration: none;
-    padding: 10px;
-    margin: 0px;
     color: white;
-} */
+    font-weight: bold;
+} 
+.nav-right li a:hover {
+    color: #25C1CE;
+}
 .hero-section{
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    height: 900px;
+    text-align: center;
     margin: auto;
-    padding-top: 20%;
+    padding-top: 15%;
+    width: 50%;
 }
-/* #hero-section h4{
-    margin-bottom: 100px;
-    margin-top: 100px;
-    display: flex;
-    font-size:xx-large;
+.hero-section h1{
+    font-size: 2rem;
+} 
+.heroUnderline {
+    padding-bottom: 1.5%;
+    color: #25C1CE;
+}
+.first{
+    padding-bottom: 8%;
+    line-height: 1.5;
+}
+.button{
+    border: 2px solid #25C1CE;
+    border-radius: 5px;
+    padding: 1.5%;
+} 
+.hero-section a{
+    text-decoration: none;
+    color: #25C1CE;
     font-weight: bold;
-    justify-content: center;
-    text-align: center;
-    margin-left: 400px;
-} */
-/* .first{
-    height: 10vh;
-    max-width: 600px;
-    margin: 0 auto;
-    text-align: center;
-    margin-bottom: 100px;
-    margin-left: 400px;
-} */
-/* .moh{
-    border: none;
-    padding: 0.4em 1em;
-    border-radius: 0px;
-    background-color: rgb(52, 112, 125);
-    color:  rgb(12, 62, 73);
-    size: 100%;
-    margin-left: 600px;
-    margin-block-end: 600px;
-} */
-button:hover{
+}
+.hero-section a:hover{
+    color: white;
+    border-color: white;
     cursor: pointer;
 }
 .our_story-section {
-    color: black;
     background-color: white;
+    gap: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    align-items: center;
     display: flex;
-    margin-left: 25%;
+    margin: auto;
+    width: 60%;
+    height: 50vh;
 }
-.big {
-    display: flex;
-    justify-content: center;
-    width:60%;
+.our_story-section a {
+    text-decoration: none;
+    color: #25C1CE;
+    font-weight: bold;
 }
-
-
-/* .big img{
-    margin-left: 200px;
-    padding-top: 30%;
-} */
-/* .story{
-    font-size: 24px;
-    font-weight:bold;
-    margin-left: 600px;
-    margin-top: 200px;
-    margin-bottom: 200px;
-} */
-/* .topb{
-    height: 10vh;
-    max-width: 600px;
-    margin: 0 auto;
-    margin-bottom: 20px;
-    margin-right: 400px;
-}
-.lastp{
-    height: 5vh;
-    max-width: 600px;
-    margin: 0 auto;
-    margin-bottom: 20px;
-    margin-right: 400px;
-} */
-/* .imole{
-    border: none;
-    padding: 0.4em 1em;
-    border-radius: 0px;
-    color:  white;
-    background-color: rgb(102, 169, 184);;
-    size: 100%;
-    margin-left: 600px;
-    margin-top: 100px;
-    margin-block-end: 50px;
-} */
-.imole:hover{
+.our_story-section a:hover {
+    color: #37355F;
+    border-color: #37355F;
     cursor: pointer;
 }
-
+.our_story-section h2{
+    padding-bottom: 3%;
+} 
+.our_story-section p {
+    padding-bottom: 5%;
+}
 #watch-section {
     color: white;
     background-image: url(./images/bgk-middle.png);
-    background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100% 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
+    height: 80vh;
 }
 .video{
     padding-top: 3%; 
 }
-
-#expertise-section {
-    color: fuchsia;
+.video a {
+    text-decoration: none;
+    color: white;
 }
-
-#team-section {
-    color: yellowgreen;
+.video a:hover {
+    color: #25C1CE;
 }
-
-#contact_client-section {
-    color: lightsalmon;
-}
-
-footer {
-    color: blueviolet;
-}
-
