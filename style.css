@@ -1,10 +1,20 @@
 * {
     margin: 0;
-  
     box-sizing: border-box;
     padding: 0;   
 }
 
+#contact_client-section {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    gap:8%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+#contact_client-section h2 {
+    text-transform: uppercase;
 
 header{
     background-size: 100% 100%;
@@ -50,6 +60,7 @@ header{
     margin: auto;
     padding-top: 15%;
     width: 50%;
+
 }
 .hero-section h1{
     font-size: 2rem;
@@ -65,6 +76,171 @@ header{
 Eudes's sections start here
 ***************************/
 
+
+
+.clientImages {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.clientHeading {
+    grid-column: span 2;
+}
+
+.clientImages img{
+    width: 240px;
+    height: auto;
+    padding-right: 50%;
+    margin-bottom: 5%;
+}
+
+
+.clientForm input{
+    width: 100%;
+    padding: 2.5%;
+    margin-top: 5%;
+}
+
+.submitButton {
+    padding: 2% 8%;
+    margin-top: 3%;
+    background-color: white;
+    border: 2px solid rgb(22, 212, 212);
+    color: rgb(22, 212, 212);
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+.submitButton:hover{
+    background-color: rgb(22, 212, 212);
+    border: 2px solid rgb(22, 212, 212);
+    color: white;
+}
+
+textarea {
+    margin-top: 5%;
+    resize: none;
+}
+
+textarea::placeholder {
+    padding-left: 3%;
+    padding-top: 3%;
+    font-size: 1rem;
+}
+
+.footerSections {
+    background-image: url(images/bgk-footer.png);
+    background-size: 100%;
+    color: #fcfcfdc7;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2%;
+    line-height: 1.6;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+
+
+.tajam {
+    width: 20%;
+}
+
+.tajam h3 {
+    color: #3d91ad;
+    font-size: 1.5rem;
+    padding-bottom: 5%;
+}
+
+.tajam img {
+    vertical-align: middle;
+    padding-right: 5%;
+}
+
+.address {
+    width: 18%;
+}
+
+.mediaIcons {
+    width: 18%;
+    margin-right: 3%;
+}
+
+.address h4 {
+    padding-bottom: 13%;
+    text-transform: uppercase;
+}
+
+.address img {
+    margin-right: 5%;
+    vertical-align: middle;
+}
+
+.addressLinePosition {
+    padding-left: 10%;
+}
+
+.mediaIcons h4 {
+    padding-bottom: 13%;
+    text-transform: uppercase;
+}
+
+.mediaIcons input {
+    background: transparent;
+    border: 1px solid #fcfcfdc7;
+    padding: 4%;
+    margin-bottom: 8%;
+    color: white;
+}
+
+.mediaIcons ::placeholder {
+    color:#fcfcfdc7;
+}
+
+.newsletterIcon {
+    vertical-align: middle;
+    background-color: #fcfcfdc7;
+    opacity: 0.5;
+    margin-left: 2.5%;
+    margin-bottom: 0.8%;
+    padding: 3% 5.5% 2% 5%;
+}
+
+.newsletterIcon:hover{
+    background-color: white;
+}
+
+.icons img {
+    width: 30px;
+    height: 30px;
+}
+
+.copyright {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+    margin-top: 2%;
+    padding-bottom: 2%;
+}
+
+.copyright ul li {
+    display: inline-block;
+}
+
+.copyright a {
+    padding: 25px;
+    color: #fcfcfdc7;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.copyright a:hover {
+    color: #3d91ad;
+}
+
+.copyrightCredit {
+    margin-right: 8%;
 
 /* General styling */
 
