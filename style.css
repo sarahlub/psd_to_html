@@ -43,6 +43,7 @@ header{
     padding-right: 15px;
     margin-top: 40px;
 }
+
 .nav-right li a {
     text-decoration: none;
     color: white;
@@ -404,6 +405,140 @@ button:hover {
         margin: 0 auto;
     }
 
+    .our_story-section {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 80%;
+        padding-top: 6%;
+        font-size: 1.1rem;
+    }
+    .our_story-section img {
+        width: 100px;
+        height: 100px;
+    }
+    .top-block {
+        border: none;
+    }
+    
+    .box1, .box2, .box4, .box5 {
+        border: none;
+    }
+    
+    #contact_client-section {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+    }
+
+    .clientForm input{
+        width: 60%;
+
+    }
+    
+    textarea {
+        margin-top: 5%;
+        resize: none;
+    }
+    .clientImages {
+        display: grid;
+        margin-left: 10%;
+        grid-template-columns: 1fr 1fr;
+    }
+    .clientHeading {
+        grid-column: span 2;
+    }
+
+    .clientHeading {
+        margin-right: 22%;
+        padding-bottom: 5%;
+        font-size: 2rem;
+    }
+    
+    .clientImages img{
+        width: 280px;
+        height: auto;
+        padding-right: 50%;
+        margin-bottom: 5%;
+    }
+
+    .formHeading {
+        margin-top: 5%;
+    }
+
+    .footerSections {
+        background-image: url(images/bgk-footer.png);
+        background-size: 100%;
+        color: #fcfcfdc7;
+        display: flex;
+        justify-content: center;
+        line-height: 1.6;
+        padding-top: 5%;
+        padding-bottom: 3%;
+    }
+    
+    
+    .tajam {
+        width: 100%;
+        text-align: center;
+    }
+
+    .address {
+        width: 42%;
+        margin-top: 5%;
+    }
+
+    .mediaIcons {
+        width: 44%;
+        margin-top: 5%;
+    }
+
+    .newsletterIcon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .copyright {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        gap: 0%;
+        margin-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    .copyright a {
+        padding: 10px;
+        color: #fcfcfdc7;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    .copyrightCredit {
+        margin: auto;
+    }
+
+    .navbar{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 0%;
+    }
+
+    .nav-right ol li{
+        display: inline-block;
+        padding-right: 20px;
+        margin-top: 30px;
+        margin-left: 5%;
+    }
+
+    .hero-section {
+        padding-top: 10%;   
+    }
 }
 
 
@@ -435,13 +570,14 @@ Eudes's sections end here
 .our_story-section {
     background-color: white;
     gap: 5%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    /* margin-top: 5%;
+    margin-bottom: 5%; */
+    padding: 5%;
     align-items: center;
     display: flex;
     margin: auto;
     width: 60%;
-    height: 50vh;
+    /* height: 50vh; */
     line-height: 1.5;
 }
 .our_story-section a {
@@ -480,3 +616,4 @@ Eudes's sections end here
 .video a:hover {
     color: #25C1CE;
 }
+
