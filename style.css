@@ -8,9 +8,10 @@
     background-color: white;
     display: flex;
     justify-content: center;
-    gap:8%;
+    gap:10%;
     margin-top: 3%;
     margin-bottom: 2%;
+    margin-left: 6%;
 }
 
 #contact_client-section h2 {
@@ -104,7 +105,7 @@ Eudes's sections start here
 .submitButton {
     padding: 2% 8%;
     margin-top: 3%;
-    margin-left: -0.5%;
+    margin-left: -0.1%;
     background-color: white;
     border: 2px solid rgb(22, 212, 212);
     color: rgb(22, 212, 212);
@@ -137,7 +138,7 @@ textarea::placeholder {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1%;
+    gap: 2%;
     line-height: 1.6;
     padding-top: 5%;
     padding-bottom: 3%;
@@ -146,6 +147,7 @@ textarea::placeholder {
 
 .tajam {
     width: 20%;
+    margin-left: 6%;
 }
 
 .tajam h3 {
@@ -161,11 +163,13 @@ textarea::placeholder {
 
 .address {
     width: 18%;
+
 }
 
 .mediaIcons {
     width: 18%;
     margin-right: 3%;
+
 }
 
 .address h4 {
@@ -180,6 +184,10 @@ textarea::placeholder {
 
 .addressLinePosition {
     padding-left: 10%;
+}
+
+.phonePadding {
+    padding-top: 5%;
 }
 
 .mediaIcons h4 {
@@ -221,9 +229,10 @@ textarea::placeholder {
     width: 100%;
     display: flex;
     justify-content: center;
-    gap: 21%;
+    gap: 24%;
     margin-top: 2%;
     padding-bottom: 2%;
+    margin-left: 5.5%;
 }
 
 .copyright ul li {
@@ -295,7 +304,7 @@ p {
     color: #403f47;
     text-align: center;
     margin: 60px auto;
-    max-width: 67%;
+    max-width: 62%;
 }
 
 
@@ -316,7 +325,7 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 20px;
-    width: 67%;
+    width: 62%;
     margin: 0 auto;
 }
 
@@ -376,6 +385,81 @@ button:hover {
     transition: 1s background-color;
 }
 
+/*************************
+Eudes's sections end here
+*************************/
+
+
+
+.first{
+    padding-bottom: 8%;
+    line-height: 1.5;
+}
+.button{
+    border: 2px solid #25C1CE;
+    border-radius: 5px;
+    padding: 1.5%;
+} 
+.hero-section a{
+    text-decoration: none;
+    color: #25C1CE;
+    font-weight: bold;
+}
+.hero-section a:hover{
+    color: white;
+    border-color: white;
+    cursor: pointer;
+}
+.our_story-section {
+    background-color: white;
+    gap: 5%;
+    padding: 5%;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    width: 67%;
+    line-height: 1.5;
+    max-height: 670px;
+}
+.our_story-section a {
+    text-decoration: none;
+    color: #25C1CE;
+    font-weight: bold;
+}
+.our_story-section a:hover {
+    color: #37355F;
+    border-color: #37355F;
+    cursor: pointer;
+}
+.our_story-section h2{
+    padding-bottom: 5%;
+} 
+.our_story-section p {
+    padding-bottom: 5%;
+}
+
+
+#watch-section {
+    color: white;
+    background-image: url(./images/bgk-middle.png);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+}
+.video{
+    padding-top: 3%; 
+}
+.video a {
+    text-decoration: none;
+    color: white;
+}
+.video a:hover {
+    color: #25C1CE;
+}
+
 
 
 /* Responsiveness */
@@ -432,9 +516,10 @@ button:hover {
     }
 
     .clientForm input{
-        width: 60%;
+        width: 80%;
 
     }
+
     
     textarea {
         margin-top: 5%;
@@ -459,7 +544,8 @@ button:hover {
         width: 280px;
         height: auto;
         padding-right: 50%;
-        margin-bottom: 5%;
+        margin-bottom: 15%;
+        margin-top: 5%;
     }
 
     .formHeading {
@@ -484,17 +570,26 @@ button:hover {
     }
 
     .address {
-        width: 42%;
+        width: 50%;
         margin-top: 5%;
+        text-align: center;
     }
 
     .mediaIcons {
         width: 44%;
         margin-top: 5%;
+        text-align: center;
+    }
+
+    .mediaIcons h4  {
+        padding-bottom: 5%;
+    }
+    .mediaIcons input {
+        width: 180px;
     }
 
     .newsletterIcon {
-        width: 40px;
+        width: 50px;
         height: 40px;
     }
 
@@ -507,6 +602,7 @@ button:hover {
         gap: 0%;
         margin-top: 2%;
         padding-bottom: 2%;
+
     }
 
     .copyright a {
@@ -539,81 +635,27 @@ button:hover {
     .hero-section {
         padding-top: 10%;   
     }
+
+    .big img {
+        margin-bottom: 15%;
+    }
+    .phonePadding {
+        padding-top: 0%;
+    }
+
+    .footerSections {
+        background-size: cover;
+    }
+
+    .address h4 {
+        padding-bottom: 5%;
+    }
+    
+    textarea {
+        width: 80%;
+    }
 }
 
 
-/*************************
-Eudes's sections end here
-*************************/
 
-
-
-.first{
-    padding-bottom: 8%;
-    line-height: 1.5;
-}
-.button{
-    border: 2px solid #25C1CE;
-    border-radius: 5px;
-    padding: 1.5%;
-} 
-.hero-section a{
-    text-decoration: none;
-    color: #25C1CE;
-    font-weight: bold;
-}
-.hero-section a:hover{
-    color: white;
-    border-color: white;
-    cursor: pointer;
-}
-.our_story-section {
-    background-color: white;
-    gap: 5%;
-    /* margin-top: 5%;
-    margin-bottom: 5%; */
-    padding: 5%;
-    align-items: center;
-    display: flex;
-    margin: auto;
-    width: 60%;
-    /* height: 50vh; */
-    line-height: 1.5;
-}
-.our_story-section a {
-    text-decoration: none;
-    color: #25C1CE;
-    font-weight: bold;
-}
-.our_story-section a:hover {
-    color: #37355F;
-    border-color: #37355F;
-    cursor: pointer;
-}
-.our_story-section h2{
-    padding-bottom: 3%;
-} 
-.our_story-section p {
-    padding-bottom: 5%;
-}
-#watch-section {
-    color: white;
-    background-image: url(./images/bgk-middle.png);
-    background-size: 100% 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    height: 80vh;
-}
-.video{
-    padding-top: 3%; 
-}
-.video a {
-    text-decoration: none;
-    color: white;
-}
-.video a:hover {
-    color: #25C1CE;
-}
 
