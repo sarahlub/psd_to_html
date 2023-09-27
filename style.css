@@ -532,7 +532,7 @@ Eudes's sections end here
         grid-template-columns: 1fr 1fr;
     }
     .clientHeading {
-        grid-column: span 2;
+        margin-left: -10%;
     }
 
     .clientHeading {
@@ -566,8 +566,9 @@ Eudes's sections end here
     
     
     .tajam {
-        width: 100%;
+        width: 90%;
         text-align: center;
+        margin-left: -2.5%;
     }
 
     .address {
